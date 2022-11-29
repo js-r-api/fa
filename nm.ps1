@@ -43,7 +43,7 @@ function Invoke
         [string]$DriverName = "T",
         [string]$NewUser = "",
         [string]$NewPassword = "",
-        [string]$DLL = ""
+        [string]$DLL = "C:\Users\UP41693\nm4.dll"
     )
 
     if ( $DLL -eq "" ){
